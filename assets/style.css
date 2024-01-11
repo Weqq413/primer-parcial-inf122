@@ -1,0 +1,36 @@
+:root{
+    --black: #000000;
+    --withe:  #ffffff;
+    --red: #ff0000;
+    --plomo: #3f3e41;
+    --celeste: #aab0d3;
+    --azul:#000c1b;
+}
+
+body {
+    font-family: 'Nunito';
+    margin: 0;
+}
+
+.main-container {
+    background-color: var(--black);
+    height: 100vh;
+    width: 100%;
+}
+
+.nombre{
+    color: var(--withe);
+}
+
+.caj{
+    color: var(--withe);
+
+    
+}
+
+.segui{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 2% 0 2%;
+}

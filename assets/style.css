@@ -5,6 +5,9 @@
     --plomo: #3f3e41;
     --celeste: #aab0d3;
     --azul:#000c1b;
+    --sm: 16px;
+    --md: 20px;
+    --lg: 60px;
 }
 
 body {
@@ -14,8 +17,17 @@ body {
 
 .main-container {
     background-color: var(--black);
-    height: 100vh;
+    height: 150%;
     width: 100%;
+}
+h1{
+
+    font-size: var(--md); 
+}
+
+p{
+
+    font-size: var(--sm); 
 }
 
 .nombre{
@@ -29,8 +41,110 @@ body {
 }
 
 .segui{
+    text-align: center;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 0 2% 0 2%;
+}
+.imagen{
+    border-radius: 50%;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ /*   justify-content: space-evenly;
+    align-items: center;
+    margin: 0 2% 0 2%;   */
+}
+
+.image-container .foto {
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+}
+.perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dowload{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.primary-button2{
+    font-size: var(--md);
+}
+
+.primary-button1{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--withe);
+    color: var(--black);
+    border: none;
+    border-radius: 5px;
+    font-size: var(--md);
+    cursor: pointer;
+    margin: 10% 0 10% 0;
+}
+
+.primary-button2{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--black);
+    color: var(--withe);
+    border: none;
+    border-radius: 5px;
+    font-size: var(--md);
+    cursor: pointer;
+    margin: 10% 0 10% 0;
+}
+
+
+.f1{
+    height: 10;
+    width: 20;
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;   
+    justify-content: center;
+}
+.f2{
+    height: 10;
+    width: 20;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;   
+    justify-content: center;
+}
+.f3{
+    height: 150;
+    width: 200;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;   
+    justify-content: center;
+}
+
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
